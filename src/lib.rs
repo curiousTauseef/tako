@@ -1,9 +1,6 @@
 #![deny(clippy::all)]
 #![feature(test)]
 
-#[macro_use]
-mod map_macros;
-
 use std::fs::File;
 use std::io::prelude::*;
 use std::sync::Arc;
